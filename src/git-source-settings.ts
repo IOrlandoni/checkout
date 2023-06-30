@@ -50,6 +50,11 @@ export interface IGitSourceSettings {
   fetchDepth: number
 
   /**
+   * The local reference repository
+   */
+  reference: string | undefined
+
+  /**
    * Fetch tags, even if fetchDepth > 0 (default: false)
    */
   fetchTags: boolean
