@@ -60,6 +60,11 @@ export interface IGitSourceSettings {
   showProgress: boolean
 
   /**
+   * The local reference repository
+   */
+  reference: string | undefined
+
+  /**
    * Indicates whether to fetch LFS objects
    */
   lfs: boolean
